@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tasty Bites Restaurant</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Tasty Bites Restaurant</h1>
+        <nav>
+            <a href="#about">About</a> |
+            <a href="#menu">Menu</a> |
+            <a href="#booking">Book Table</a>
+        </nav>
+        <hr>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Section 1: About Restaurant -->
+        <section id="about">
+            <h2>About Our Restaurant</h2>
+            <p>
+                Welcome to Tasty Bites! We serve delicious vegetarian and non-vegetarian
+                food made with fresh ingredients.
+            </p>
+        </section>
+
+        <!-- Section 2: Food Menu -->
+        <section id="menu">
+            <h2>Food Menu</h2>
+            <ul>
+                <li>Veg Fried Rice</li>
+                <li>Paneer Butter Masala</li>
+                <li>Chicken Biryani</li>
+                <li>Grilled Fish</li>
+            </ul>
+        </section>
+
+        <!-- Article: Chef’s Special -->
+        <article>
+            <h2>Chef’s Special</h2>
+            <p>
+                Our Chef’s Special Dish is **Butter Chicken with Garlic Naan**,
+                prepared with a secret house recipe.
+            </p>
+        </article>
+
+        <hr>
+
+        <!-- Part 2: Table Booking Form -->
+        <section id="booking">
+            <h2>Table Booking Form</h2>
+
+            <form>
+                <!-- Name -->
+                <label>Name:</label><br>
+                <input type="text" name="name" required><br><br>
+
+                <!-- Email -->
+                <label>Email:</label><br>
+                <input type="email" name="email" required><br><br>
+
+                <!-- Number of Guests -->
+                <label>Number of Guests:</label><br>
+                <input type="number" name="guests" min="1" required><br><br>
+
+                <!-- Radio Buttons -->
+                <label>Food Preference:</label><br>
+                <input type="radio" name="food" value="Veg"> Veg
+                <input type="radio" name="food" value="Non-Veg"> Non-Veg
+                <br><br>
+
+                <!-- Dropdown -->
+                <label>Meal Type:</label><br>
+                <select name="meal">
+                    <option>Breakfast</option>
+                    <option>Lunch</option>
+                    <option>Dinner</option>
+                </select>
+                <br><br>
+
+                <!-- Submit Button -->
+                <input type="submit" value="Book Table">
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            Address: 123 Food Street, City <br>
+            Contact: 9876543210 | Email: tastybites@gmail.com
+        </p>
+    </footer>
+
+</body>
+</html>
